@@ -1,0 +1,128 @@
+* {
+    font-family: "Calibri", "Courier New", monospace;
+}
+
+
+
+body h1 {
+    padding: 20px 290px 0px 90px;
+    font-size: 70px;
+}
+
+body h2 {
+    padding: 20px 290px 0px 90px;
+    font-size: 30px;
+}
+
+body p {
+    font-size: 20px;
+    color: grey;
+    padding: 0 310px 0 90px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 50px 80px;
+    opacity: 0.90;
+}
+
+.header a {
+    float: left;
+    color:darkgrey;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    background-color: blue;
+    color: white;
+}
+
+.header-buttons {
+    float: right;
+    width: 50%;
+}
+
+.left-column {
+    height: 700px;
+    width: 50%;
+    float: left;
+}
+
+.right-column {
+    height: 700px;
+    width: 50%;
+    float: right;
+}
+
+.banner-one {
+    background-color: dodgerblue;
+    background-image: url("../img/nurse-1.png");
+}
+
+.white-frame {
+    height: 300px;
+    background-color: white;
+}
+
+.blue-frame {
+    height: 400px;
+    background-color: dodgerblue;
+}
+
+.body-image {
+    position: absolute;
+    z-index: 900;
+}
+
+
+.logos {
+    width: 100%;
+}
+
+.logos img {
+    max-width: 250px;
+    filter: grayscale(100%);
+    opacity: 0.1;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+
+.first-section-buttons {
+    padding: 30px 310px 0px 90px;
+
+}
+
+
+.first-section h1 {
+    color: midnightblue;
+}
+
+body h2 {
+    color: midnightblue;
+}
+
+p.left {
+    padding: 0 910px 0 90px;
+}
